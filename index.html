@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -26,22 +28,24 @@
         <h1 class="display-4 font-weight-bold text-white w-50">CrystalsCollector!</h1>
         <div class="instructions">
             <p>You will be given a random number at the start of the game.</p>
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
             <p>The value of each crystal is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the value of each crystal</p>
         </div>
         <div class="rn-wl">
             <div class="row">
-            <div class="random-number col-md-4" id="random">39</div>
-            <div class="win-lose col-md-2" id="win-lose">Wins 0 </br> Losses 0</div>
-        </div>
+                <div class="random-number col-md-4" id="random">39</div>
+                <div class="win-lose col-md-2" id="win-lose">Wins 0 </br> Losses 0</div>
+            </div>
         </div>
         <div class="crystal-div">
-            <img class="crystals" id="red" src="assets/images/red.png"/>
-            <img class="crystals" id="blue" src="assets/images/blue.jpg"/>
-            <img class="crystals" id="yellow" src="assets/images/yellow.jpg"/>
-            <img class="crystals" id="green" src="assets/images/green.png"/>
+            <button class="crystals" id="red"></button>
+            <button class="crystals" id="blue"></button>
+            <button class="crystals" id="yellow"></button>
+            <button class="crystals" id="green"></button> 
         </div>
         <div class="total-score-text" id="total-score-message">Your total score is: </div>
         <div class="total-score" id="total-score">0</div>

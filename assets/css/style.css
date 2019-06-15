@@ -22,14 +22,16 @@ h1{
 
 .container{
     /*max-width: 700px;*/
-    margin-left: 10px!important;
+    margin-left: 2px!important;
 }
 
 .random-number{
     float: left !important;
-    background-color: green;
+    background-color: rgba(78, 201, 78, 0.521);
     padding: 0px 0px 10px 0px;
     text-align: left; 
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .win-lose{
@@ -42,10 +44,6 @@ h1{
 .rn-wl{
     margin: 10px 10px 10px 15px;
 
-}
-
-#red{
-    background-color: white;
 }
 
 .crystals{
@@ -66,4 +64,40 @@ h1{
     padding: 10px;
     margin-top: 10px;
     text-align: left;
+}
+
+button{
+    display: inline-block;
+}
+
+#red{
+    background-image: url("../images/red.png");
+    background-size: 50px 70px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#blue{
+    background-image: url("../images/blue.jpg");
+    background-size: 50px 70px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#yellow{
+    background-image: url("../images/yellow.jpg");
+    background-size: 50px 70px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#green{
+    background-image: url("../images/green.png");
+    background-size: 50px 70px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
 }
